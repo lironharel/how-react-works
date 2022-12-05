@@ -1,0 +1,45 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0 0.5em;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 0.5em;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(148, 148, 148);
+  margin-right: 0.5em;
+}
+
+/* .profilePhotoContainer {
+  position: relative;
+}
+
+.onlineBadge {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 0px;
+  right: 6px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: limegreen;
+} */
